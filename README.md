@@ -35,14 +35,14 @@ No browser. No account required. Just search, filter, and download.
 
 ## Features
 
-- **Search** ranked mania maps by key count (4K–8K), star rating, BPM, and text query
-- **Batch download** — filter for exactly what you want, then hit "Download All Listed"
-- **Mirror fallback** — tries Nerinyan, BeatConnect, and Chimu automatically if one fails
-- **No video option** — skip the video track to save space and avoid failed downloads on video maps
-- **Auto-import** — drops `.osz` files directly into your osu!/Songs folder if it's detected
+- **Search** ranked mania maps by key count (4K-8K), star rating, BPM, and text query
+- **Batch download** - filter for exactly what you want, then hit "Download All Listed"
+- **Mirror fallback** - tries Nerinyan, BeatConnect, and Chimu automatically if one fails
+- **No video option** - skip the video track to save space and avoid failed downloads on video maps
+- **Auto-import** - drops `.osz` files directly into your osu!/Songs folder if it's detected
 - **Already-have tracking** — scans your Songs folder so it won't re-download what you already have
-- **Audio preview** — click a map thumbnail to hear the preview track
-- **No API key required** — works out of the box using the Nerinyan mirror
+- **Audio preview** - click a map thumbnail to hear the preview track
+- **No API key required** - works out of the box using the Nerinyan mirror
 
 ---
 
@@ -50,7 +50,7 @@ No browser. No account required. Just search, filter, and download.
 
 Go to the **[Releases](../../releases/latest)** page and grab `o!mRD.exe`.
 
-No installer. Just run the `.exe` — it's portable and self-contained.
+No installer. Just run the `.exe` - it's portable and self-contained.
 
 ---
 
@@ -90,7 +90,7 @@ Shows all queued and active downloads with their status. Use **Open Folder** to 
 Requires [Rust](https://rustup.rs) (stable toolchain).
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/o-mRD
+git clone https://github.com/MRNORT/o-mRD
 cd osu-mania-dl
 cargo build --release
 ```
