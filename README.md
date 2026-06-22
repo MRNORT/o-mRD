@@ -40,7 +40,7 @@ No browser. No account required. Just search, filter, and download.
 - **Mirror fallback** - tries Nerinyan, BeatConnect, and Chimu automatically if one fails
 - **No video option** - skip the video track to save space and avoid failed downloads on video maps
 - **Auto-import** - drops `.osz` files directly into your osu!/Songs folder if it's detected
-- **Already-have tracking** — scans your Songs folder so it won't re-download what you already have
+- **Already-have tracking** - scans your Songs folder so it won't re-download what you already have
 - **Audio preview** - click a map thumbnail to hear the preview track
 - **No API key required** - works out of the box using the Nerinyan mirror
 
