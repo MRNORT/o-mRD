@@ -93,7 +93,7 @@ Requires [Rust](https://rustup.rs) (stable toolchain).
 
 ```sh
 git clone https://github.com/MRNORT/o-mRD
-cd osu-mania-dl
+cd o-mRD
 cargo build --release
 ```
 
