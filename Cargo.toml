@@ -1,0 +1,43 @@
+[package]
+name = "osu-mania-dl"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "osu-mania-dl"
+path = "src/main.rs"
+
+[dependencies]
+eframe = { version = "0.31", features = ["default"] }
+egui = "0.31"
+egui_extras = { version = "0.31", features = ["all_loaders", "image"] }
+image = { version = "0.25", features = ["png", "jpeg"] }
+reqwest = { version = "0.12", features = ["json", "stream", "blocking"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+tokio-util = { version = "0.7", features = ["io"] }
+futures-util = "0.3"
+tray-icon = "0.20"
+muda = "0.16"
+chrono = { version = "0.4", features = ["serde"] }
+dirs = "5"
+open = "5"
+notify-rust = { version = "4", optional = true }
+log = "0.4"
+env_logger = "0.11"
+anyhow = "1"
+egui-notify = "0.19"
+rfd = "0.15"
+rodio = "0.20.1"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["winuser", "shellapi"] }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+
+[profile.dev]
+opt-level = 1
