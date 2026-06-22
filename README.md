@@ -31,8 +31,6 @@ No browser. No account required. Just search, filter, and download.
 
 <br/><br/>
 
-<img src="screens/settings%20tab.jpg" width="49%" alt="Settings tab" />
-
 </div>
 
 ---
