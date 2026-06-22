@@ -8,7 +8,7 @@ A desktop app for browsing and batch-downloading ranked osu!mania beatmaps.
 No browser. No account required. Just search, filter, and download.
 
 <p align="center">
-  <img src="https://count.getloli.com/@o-mRD?theme=gelbooru" alt="Gelbooru Hit Counter" />
+  <img src="https://count.getloli.com/@o-mRD?theme=moebooru" alt="Dark Counter" />
 </p>
 
 [![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square)](https://github.com/MRNORT/o-mRD/releases)
