@@ -10,6 +10,7 @@ No browser. No account required. Just search, filter, and download.
 [![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square)](https://github.com/MRNORT/o-mRD/releases)
 [![Latest Release](https://img.shields.io/github/v/release/MRNORT/o-mRD?style=flat-square)](https://github.com/MRNORT/o-mRD/releases)
 [![Built with Rust](https://img.shields.io/badge/built%20with-Rust-orange?style=flat-square)](https://www.rust-lang.org)
+[![VirusTotal Scan](https://img.shields.io/badge/VirusTotal-Clean-brightgreen?style=flat-square&logo=virustotal)](https://www.virustotal.com/gui/file/751595a57bce225d68818255669833701b9da1b17f99a2c5e498eac822ec115e)
 
 **[Download latest release](../../releases/latest)**
 
@@ -47,7 +48,7 @@ No browser. No account required. Just search, filter, and download.
 
 ## Download
 
-Go to the **[Releases](../../releases/latest)** page and grab `osu-mania-dl.exe`.
+Go to the **[Releases](../../releases/latest)** page and grab `o!mRD.exe`.
 
 No installer. Just run the `.exe` — it's portable and self-contained.
 
@@ -89,12 +90,12 @@ Shows all queued and active downloads with their status. Use **Open Folder** to 
 Requires [Rust](https://rustup.rs) (stable toolchain).
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/osu-mania-dl
+git clone https://github.com/YOUR_USERNAME/o-mRD
 cd osu-mania-dl
 cargo build --release
 ```
 
-Binary will be at `target/release/osu-mania-dl.exe`.
+Binary will be at `target/release/o!mRD.exe`.
 
 ---
 
