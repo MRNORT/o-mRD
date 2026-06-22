@@ -78,10 +78,10 @@ Shows all queued and active downloads with their status. Use **Open Folder** to 
 
 ### Settings tab
 
-- **osu! API (optional)** — By default the app uses the Nerinyan API with no account needed. If you want the official osu! API, create an OAuth client at [osu.ppy.sh/home/account/edit#oauth](https://osu.ppy.sh/home/account/edit#oauth) and paste your credentials here.
-- **Download Directory** — Where `.osz` files are saved (defaults to a `downloads` folder next to the exe)
-- **osu! Integration** — Set your osu! folder for auto-import directly into Songs
-- **Prefer no video** — Downloads the no-video version of beatmaps to save space
+- **osu! API (optional)** - By default the app uses the Nerinyan API with no account needed. If you want the official osu! API, create an OAuth client at [osu.ppy.sh/home/account/edit#oauth](https://osu.ppy.sh/home/account/edit#oauth) and paste your credentials here.
+- **Download Directory** - Where `.osz` files are saved (defaults to a `downloads` folder next to the exe)
+- **osu! Integration** - Set your osu! folder for auto-import directly into Songs
+- **Prefer no video** - Downloads the no-video version of beatmaps to save space
 
 ---
 
@@ -101,7 +101,7 @@ Binary will be at `target/release/o!mRD.exe`.
 
 ## Known limitations
 
-- "Download All Listed" downloads what's currently shown — narrow your search first if you want a specific set
+- "Download All Listed" downloads what's currently shown - narrow your search first if you want a specific set
 - Pagination is not yet supported in batch mode
 - Auto-import requires osu! to be at the default install path, or configured manually in Settings
 
