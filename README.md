@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="screens/browse%20tab.jpg" width="80" alt="osu!mania Ranked Downloader" />
+<img src="screens/icon.jpg" width="80" alt="osu!mania Ranked Downloader" />
 
 # osu!mania Ranked Downloader
 
